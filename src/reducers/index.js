@@ -1,5 +1,6 @@
 import { combineReducers } from 'redux';
-
+import CounterReducer from './CounterReducer';
 export default combineReducers({
-    //data:dataReducer
+    //data:dateReducer
+    counter: CounterReducer    
 })
